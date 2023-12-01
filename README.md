@@ -25,7 +25,8 @@
 16. Use the incremental garbage collector to split the GC workload (Turn in Project Settings)
 17. Accelerometr tweak
 
-## Graphics
+
+## Graphics  
 
 1. Mark Static
 2. Use GPU instancing
