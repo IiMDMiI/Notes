@@ -22,10 +22,33 @@
 13. Set camera layers
 14. Set physics layers interaction (Turn in Project Settings)   
 15. Disable stack trace logging (Turn in Project Settings)   
-16. Use the incremental garbage collector to split the GC workload (Turn in Project Settings)   
+16. Use the incremental garbage collector to split the GC workload (Turn in Project Settings)
+17. Accelerometr tweak
 
+#Graphics
 
-##Resources
-[Optimize Your Mobile Game](https://unity.com/ru/resources/unity-e-book-optimize-your-mobile-game-performance?ungated=true)
-[Reddit Post] (https://www.reddit.com/r/Unity3D/comments/njrqhu/big_thread_of_optimization_tips/)
+1. Mark Static
+2. Use GPU instancing
+3. Bake meshes  
+4. Bake light
+5. Use LOD
+6. Low the rendering resolution
+7. Tweak shadow distance
+8. Tweak camera far plane
+9. Use oclussion culling
+10. Power of 2 textures
+11. Use sprite atlases and color palletes
+12. Use light probes
+13. Use less materials
+14. Split canvases
+15. Disable invisable UI
+16. Turn of raycattarget for not interactable ui
+17. Use simple colliders instead of mesh
+18. Use Imposters
+   
+
+## Resources
+[Optimize Your Mobile Game](https://unity.com/ru/resources/unity-e-book-optimize-your-mobile-game-performance?ungated=true)  
+[Unity post] (https://blog.unity.com/games/optimize-your-mobile-game-performance-expert-tips-on-graphics-and-assets)
+[Reddit Post] (https://www.reddit.com/r/Unity3D/comments/njrqhu/big_thread_of_optimization_tips/)  
 [Medium Post] (https://medium.com/lonely-vertex-development/how-we-optimised-our-scripts-in-unity-447924863b3a)
