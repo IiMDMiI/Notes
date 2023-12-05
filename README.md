@@ -18,12 +18,15 @@
 9. For over Foreach
 10. Arrays over Lists
 11. Remove Debug.Log() calls with #if UNITY_EDITOR
-12. Manually collect garbage in handy places with System.GC.Collect();
 13. Set camera layers
 14. Set physics layers interaction (Turn in Project Settings)   
-15. Disable stack trace logging (Turn in Project Settings)   
-16. Use the incremental garbage collector to split the GC workload (Turn in Project Settings)
-17. Accelerometr tweak
+15. Disable stack trace logging (Turn in Project Settings)
+16. Disable transform sync(Turn in Project Settings)
+17. Enable reuse collision fallbacks()
+18. Change fixed update time
+19. Use the incremental garbage collector to split the GC workload (Turn in Project Settings)
+20. Manually collect garbage in handy places with System.GC.Collect();
+21. Accelerometr tweak (Turn in Project Settings)
 
 
 ## Graphics  
