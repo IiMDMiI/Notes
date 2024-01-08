@@ -1,7 +1,6 @@
 # Optimization   
 
 ## Code  
-0. For games with dedicated server use multitreding
 1. Caching objects  
   Don't use FindObject and similar operations in update  
   Don't use Camera.main in update because it's calls FindObjectWithTag  
@@ -49,10 +48,19 @@
 16. Turn of raycattarget for not interactable ui
 17. Use simple colliders instead of mesh
 18. Use Imposters
-   
 
+
+## Extra optimization
+1. For games with dedicated server use multitreding
+2. Jobs
+3. Burst compiler
+4. ECS
+5. Dots in general
+
+   
 ## Resources
 [Optimize Your Mobile Game](https://unity.com/ru/resources/unity-e-book-optimize-your-mobile-game-performance?ungated=true)  
 [Unity post](https://blog.unity.com/games/optimize-your-mobile-game-performance-expert-tips-on-graphics-and-assets)  
 [Reddit Post](https://www.reddit.com/r/Unity3D/comments/njrqhu/big_thread_of_optimization_tips/)  
 [Medium Post](https://medium.com/lonely-vertex-development/how-we-optimised-our-scripts-in-unity-447924863b3a)  
+[DOTS](https://www.youtube.com/watch?v=Bz24Jp30nkM)
