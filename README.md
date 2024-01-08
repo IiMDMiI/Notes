@@ -1,7 +1,7 @@
 # Optimization   
 
 ## Code  
-
+0. For games with dedicated server use multitreding
 1. Caching objects  
   Don't use FindObject and similar operations in update  
   Don't use Camera.main in update because it's calls FindObjectWithTag  
